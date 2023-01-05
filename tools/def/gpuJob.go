@@ -27,3 +27,9 @@ type GPUJobDetail struct {
 	Pod         Pod         `yaml:"pod" json:"pod"`
 	PodInstance PodInstance `yaml:"podInstance" json:"podInstance"`
 }
+
+type GPUJobResponse struct {
+	JobName string `json:"jobName"`
+	Result  string `json:"result"`
+	Error   string `json:"error"`
+}

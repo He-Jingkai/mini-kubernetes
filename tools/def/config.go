@@ -21,7 +21,7 @@ const (
 	MasterPort     = 8000
 )
 
-/********** Image(gateway and functional) **********/
+/********** Image(gateway and function) **********/
 const (
 	//for image upload
 	RgistryAddr     = "registry.cn-hangzhou.aliyuncs.com/taoyucheng/mink8s:"
@@ -35,7 +35,7 @@ const (
 	GatewayStartArgs               = `./package_and_start.sh`
 	StartBash                      = "/bin/bash"
 
-	//for py functional image
+	//for py function image
 	PyFunctionTemplateImage   = `hejingkai/python_serverless_template`
 	PyHandlerParentDirPath    = `/home/functionalTemplate/functionalTemplate/`
 	PyHandlerFileName         = `handler.py`
@@ -46,7 +46,7 @@ const (
 	MaxBodySize               = 2048
 
 	//for gpu job uploader image
-	GPUJobUploaderImage                    = `hejingkai/gpu_job_uploader`
+	GPUJobUploaderImage                    = `hejingkai/gpujob`
 	GPUJobSourceCodeParentDirPath          = `/home/gpu/`
 	GPUJobSourceCodeFileName               = `job.cu`
 	GPUJOBMakefileParentDirPath            = `/home/gpu/`
